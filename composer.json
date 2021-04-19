@@ -1,0 +1,29 @@
+{
+    "name": "prianick/laravel-acl-filter",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "asp",
+            "email": "dr.profee@yandex.ru"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0",
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "orchestra/testbench": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prianick\\LaravelAclFilter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Prianick\\LaravelAclFilter\\": "src/"
+        }
+    }
+}
